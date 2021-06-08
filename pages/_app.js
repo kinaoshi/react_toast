@@ -19,8 +19,8 @@ function MyApp({ Component, pageProps }) {
     className: '',
     duration: 1000,
     style: {
-      background: '#363636',
-      color: '#99094c',
+      background: 'orange',
+      color: 'blue',
     },
     // Default options for specific types
     success: {
