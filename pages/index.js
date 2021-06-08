@@ -3,10 +3,11 @@ import styles from "../styles/Home.module.css";
 import toast from "react-hot-toast";
 import { Footer } from "../components/Footer";
 import { Links } from "../components/Links";
+import { Headline } from "../components/Headline";
 
 export default function Home() {
 
-  const handleClick = ()=>toast('今は２番です');
+  const handleClick = ()=>toast('今は3番です');
 
   return (
     <div className={styles.container}>
@@ -17,12 +18,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Index Page</h1>
-
-        <p className={styles.description}>
-          Get started by editing{" "}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+        <Headline  page="index"/>
 
         <button onClick={handleClick} className={styles.card}>
           <h2>react_next.js学習進捗状況</h2>

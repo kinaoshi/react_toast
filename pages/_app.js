@@ -17,7 +17,7 @@ function MyApp({ Component, pageProps }) {
   toastOptions={{
     // Define default options
     className: '',
-    duration: 1000,
+    duration: 3000,
     style: {
       background: 'orange',
       color: 'blue',
