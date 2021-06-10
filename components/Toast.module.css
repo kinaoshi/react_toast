@@ -1,0 +1,23 @@
+
+.toast{
+  cursor : pointer;
+  background: #e6f0da;
+  color: rgb(255, 47, 0);
+  border-radius: 5px;
+  padding: 0;
+  font-size: 12px;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+
+}
+.toast p{
+  font-size: 1.2rem;
+}
+
+.toast:hover,
+.toast:focus,
+.toast:active {
+  color: #0070f3;
+  border-color: #0070f3;
+
+}
