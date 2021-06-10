@@ -9,9 +9,9 @@ export  function Toast() {
   return (
 
 
-        <button onClick={() => toast("次は6番です")} className={styles.toast}>
+        <button onClick={() => toast("次は7番です")} className={styles.toast}>
           <h2>react_next.js学習進捗状況</h2>
-          {/* <p>ファイル名&rarr;react_toast</p> */}
+          <p>ファイル名&rarr;react_toast</p>
         </button>
 
 
