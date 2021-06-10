@@ -13,6 +13,9 @@
 .toast p{
   font-size: 1.2rem;
 }
+.button {
+  height: 20px;
+}
 
 .toast:hover,
 .toast:focus,

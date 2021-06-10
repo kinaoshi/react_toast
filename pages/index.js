@@ -15,9 +15,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-        <Toast/>
 
         <Main page="index"/>
+        <Toast/>
 
       <Footer />
     </div>
