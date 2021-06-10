@@ -32,8 +32,7 @@ export function Links() {
         <h2>Deploy &rarr;</h2>
         <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
       </a>
-      <a href="/">Index</a>
-      <a href="/about">About</a>
+      
     </div>
 
 
