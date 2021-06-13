@@ -1,5 +1,5 @@
-import Image from "next/image";
-import classes from "./Footer.module.css";
+// import Image from "next/image";
+import classes from "src/components/Footer/Footer.module.css";
 
 export function Footer() {
   return (
@@ -11,7 +11,7 @@ export function Footer() {
       >
         React_Toast{" "}
         <span className={classes.logo}>
-          <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+          <img src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
         </span>
       </a>
     </footer>
